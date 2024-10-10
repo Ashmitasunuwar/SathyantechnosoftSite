@@ -6,6 +6,7 @@ function Service() {
 
 
             <div className='service'>
+                <h3>Services we offer:</h3>
                 <p>
                     We provide our services by registering your business at low price and monthly filling the gst at low price. We do
                     labour registration and renewals for your business. Planning to lunch an android app which will help the business holders to keep track of their

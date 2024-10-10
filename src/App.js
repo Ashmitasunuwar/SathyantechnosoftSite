@@ -6,13 +6,15 @@ import Service from "./components/Service";
 import logo from './logo/logo.jpg';
 import './css/style.css'
 
-import { CgChevronDown } from "react-icons/cg";
+
 
 
 
 function App() {
 
+  const handleMouseOut = () => {
 
+  }
   return (
 
 
@@ -24,7 +26,7 @@ function App() {
         </div>
         <div className="navigation ">
           <div className="divlink"><Link className="link" to="/"><strong >HOME</strong></Link>  </div>
-          <div className="divlink" ><Link className="link" to="service" ><strong>SERVICE</strong><CgChevronDown /></Link></div>
+          <div className="divlink" ><Link className="link" to="service" ><strong>SERVICE</strong></Link></div>
           <div className="divlink"><Link className="link" to="about"> <strong>ABOUT US </strong> </Link></div>
           <div className="divlink"> <Link className="link" to="contact"><strong>CONTACT</strong> </Link></div>
         </div>

@@ -3,6 +3,7 @@ import React from 'react'
 function AboutUs() {
     return (
         <div className='about'>
+            <h3>Get to know us</h3>
             <p>Sathyantechnosoft is a content providing company estabnlshed in 2015. Sathyan Technosoft is a young and dynamic company
                 specializing in advanced content management, Software development and optimization services for Content Sector. Sathyan
                 Technosoft is located in Tumkur, Karnataka state in India. Sathyan Technosoft is a comprehensive Content solution that saves

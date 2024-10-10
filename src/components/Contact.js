@@ -3,6 +3,7 @@ import React from 'react'
 function Contact() {
     return (
         <div className='Contact'>
+            <h3>Contact us at:</h3>
             <h6>
                 <p>   Address:Sathyantechnosoft ,3rd floor, Akshaya Nilaya, near city club, Sira Gate, TUDA Layout, Tumakuru, Karnataka 572106</p>
 

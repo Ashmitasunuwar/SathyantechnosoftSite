@@ -1,8 +1,5 @@
 import ST_DataContext from '../context/ ST_DataContext';
 import { useContext, useEffect, useState } from 'react';
-import APJ1 from '../css/Images/APJ.webp'
-import APJ2 from '../css/Images/DR.-APJ-ABDUL-KALAM.webp'
-import APJ3 from '../css/Images/DrAbdulkalam1..jpeg'
 import ProfileCard from './ProfileCard';
 import Durga from '../css/Images/Durga-Pujo-and-Mysores-Dasara-lg-cov.jpg'
 import Palace1 from '../css/Images/palace.avif'

@@ -1,5 +1,5 @@
 
-import APJ from '../css/Images/DrAbdulkalam1..jpeg'
+import APJ from '../css/Images/APJ.webp'
 import RK from '../css/Images/RK.jpg'
 import Durga from '../css/Images/Durga-Pujo-and-Mysores-Dasara-lg-cov.jpg'
 import Palace1 from '../css/Images/palace.avif'
