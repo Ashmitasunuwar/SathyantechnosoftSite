@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
+import AboutUs from "./components/AboutUs";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Service from "./components/Service";
+import logo from './logo/logo.jpg';
+import './css/style.css'
+
+import { CgChevronDown } from "react-icons/cg";
+
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+
+    <div className>
+      <div className=" navigate">
+        <div >
+          <img className='logo' src={logo} height={80} width={150} />
+        </div>
+        <div className="navigation ">
+          <div className="divlink"><Link className="link" to="/"><strong >HOME</strong></Link>  </div>
+          <div className="divlink" ><Link className="link" to="service" ><strong>SERVICE</strong><CgChevronDown /></Link></div>
+          <div className="divlink"><Link className="link" to="about"> <strong>ABOUT US </strong> </Link></div>
+          <div className="divlink"> <Link className="link" to="contact"><strong>CONTACT</strong> </Link></div>
+        </div>
+      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
+
     </div>
+
+
+
   );
 }
 
